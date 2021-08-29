@@ -25,6 +25,10 @@
 		01AAD40126DBAB2900E04E48 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AAD40026DBAB2900E04E48 /* CodableBundleExtension.swift */; };
 		01AAD40326DBADDE00E04E48 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AAD40226DBADDE00E04E48 /* FeaturedItemView.swift */; };
 		01AAD40526DBAEEC00E04E48 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AAD40426DBAEEC00E04E48 /* FeaturedTabView.swift */; };
+		01F9585926DC2CD20026245E /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F9585826DC2CD20026245E /* CategoryModel.swift */; };
+		01F9585B26DC35760026245E /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F9585A26DC35760026245E /* CategoryItemView.swift */; };
+		01F9585D26DC38160026245E /* CategoryGrigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F9585C26DC38160026245E /* CategoryGrigView.swift */; };
+		01F9585F26DC3A8A0026245E /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F9585E26DC3A8A0026245E /* SectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		01AAD40026DBAB2900E04E48 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		01AAD40226DBADDE00E04E48 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		01AAD40426DBAEEC00E04E48 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		01F9585826DC2CD20026245E /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		01F9585A26DC35760026245E /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		01F9585C26DC38160026245E /* CategoryGrigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGrigView.swift; sourceTree = "<group>"; };
+		01F9585E26DC3A8A0026245E /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,9 @@
 				01AAD3FC26D96A1500E04E48 /* LogoView.swift */,
 				01AAD40226DBADDE00E04E48 /* FeaturedItemView.swift */,
 				01AAD40426DBAEEC00E04E48 /* FeaturedTabView.swift */,
+				01F9585A26DC35760026245E /* CategoryItemView.swift */,
+				01F9585C26DC38160026245E /* CategoryGrigView.swift */,
+				01F9585E26DC3A8A0026245E /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -163,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				01AAD3FE26DBAA8F00E04E48 /* PlayerModel.swift */,
+				01F9585826DC2CD20026245E /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -258,6 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0192FD1426D3B494007409B6 /* AppDelegate.swift in Sources */,
+				01F9585D26DC38160026245E /* CategoryGrigView.swift in Sources */,
+				01F9585F26DC3A8A0026245E /* SectionView.swift in Sources */,
+				01F9585926DC2CD20026245E /* CategoryModel.swift in Sources */,
 				0192FD1626D3B494007409B6 /* SceneDelegate.swift in Sources */,
 				01AAD3FF26DBAA8F00E04E48 /* PlayerModel.swift in Sources */,
 				0192FD1826D3B494007409B6 /* ContentView.swift in Sources */,
@@ -266,6 +281,7 @@
 				01AAD40526DBAEEC00E04E48 /* FeaturedTabView.swift in Sources */,
 				0192FD3926D3BBCD007409B6 /* Constant.swift in Sources */,
 				01AAD40326DBADDE00E04E48 /* FeaturedItemView.swift in Sources */,
+				01F9585B26DC35760026245E /* CategoryItemView.swift in Sources */,
 				01AAD3FB26D9605600E04E48 /* NavigationBar.swift in Sources */,
 				01AAD40126DBAB2900E04E48 /* CodableBundleExtension.swift in Sources */,
 			);
