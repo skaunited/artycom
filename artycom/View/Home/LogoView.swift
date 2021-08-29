@@ -9,12 +9,31 @@ import SwiftUI
 
 struct LogoView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack (spacing: 4){
+            Text("work".uppercased())
+                .font(.title3)
+                .fontWeight(.black)
+                .foregroundColor(.red)
+            
+            
+            Image("logo-dark")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 30, height: 30, alignment: .center)
+            
+            
+            Text("flow".uppercased())
+                .font(.title3)
+                .fontWeight(.black)
+                .foregroundColor(.blue)
+        }//: HStack
     }
 }
 
 struct LogoView_Previews: PreviewProvider {
     static var previews: some View {
         LogoView()
+            .previewLayout(.sizeThatFits)
+            .padding()
     }
 }
