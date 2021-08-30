@@ -25,6 +25,14 @@ struct ContentView: View {
                             .frame(minHeight: 256)
                             .padding(.vertical, 10)
                         CategoryGrigView()
+                        
+                        TitleView(title: products[0].name)
+                        LazyVGrid(columns: gridLayout, spacing: 15, content: {
+                            ForEach (products) { product in
+                                ProductItemView(product: product)
+                            } //: LOOP
+                        }) //: GRID
+                        .padding(15)
                         FooterView()
                             .padding(.horizontal )
                     }//VStack
