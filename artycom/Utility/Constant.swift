@@ -11,6 +11,8 @@ import SwiftUI
 let players: [Player] = Bundle.main.decode("player.json")
 let categories: [Category] = Bundle.main.decode("category.json")
 let products: [Product] = Bundle.main.decode("product.json")
+let brands: [Brand] = Bundle.main.decode("brand.json")
+let simpleProduct: Product = products[0]
 
 //MARK: COLOR
 let colorBackground: Color = Color("ColorBackground")
@@ -18,6 +20,7 @@ let colorGray: Color = Color(UIColor.systemGray4)
 //MARK: LAYOUT
 let columnSpacing: CGFloat = 10
 let rawSpacing: CGFloat = 10
+//I dont understand this line
 var gridLayout:[GridItem]{
     return Array(repeating: GridItem(.flexible(), spacing: rawSpacing), count: 2)
 }
